@@ -1,0 +1,352 @@
+body{
+  background-color: #F0F0F0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+}
+
+.bg-custom{
+  background-color: #1E1E1E;
+  height: 55px;
+}
+
+.navbar-brand img {
+  margin-left:2em;
+  width: 100%;
+  height: 40px;
+}
+
+.probList{
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  color:white;
+  display: flex;
+  align-items: center;
+  padding-left:2em;
+}
+.navigation{
+  padding:0 1em;
+}
+
+.naviBut img {
+    box-shadow: 0 0.2px 0.2px rgba(255, 255, 255, 0.5);
+  }
+
+.rightNav{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.premium{
+  background-color: transparent;
+  border-width: 1px;
+  border-color: #F7931A;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 0.9em;
+  color: #F7931A;
+  border-radius: 5px;
+  padding: 0 1.7em;
+  margin-right: 3em;
+}
+
+.premium:hover{
+  background-color: #ffe0bb3e;
+  border-width: 1px;
+  border-color: #F7931A;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 0.91em;
+  transition: all 0.4s;
+  color: #FFE94D;
+  border-radius: 5px;
+  padding: 0 1.7em;
+  margin-right: 3em;
+}
+
+.trio{
+  padding-right:1em;
+  margin-top: 0.4em;
+  color: #FFE94D;
+  font-size:1.2em;
+}
+
+.compiler-page {
+  margin:5px;
+}
+.questions-section {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  overflow: auto;
+  /* resize: horizontal; Enable horizontal resizing */
+  overflow: auto; /* Enable scrolling when resized */
+  min-width: 200px; /* Set a minimum width */
+  height: 90vh;
+}
+.code-section{
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 2px;
+  overflow: auto;
+  /* resize: horizontal; Enable horizontal resizing */
+  overflow: auto; /* Enable scrolling when resized */
+  min-width: 200px; /* Set a minimum width */
+  height: 85vh;
+}
+.code-editor {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: 14px;
+  font-weight: 300;
+  line-height: 1.8;
+  font-style: normal;
+  width: calc(100% - 22px); /* Adjust width to account for padding and borders */
+  height: calc(100% - 22px); /* Adjust height to account for padding and borders */
+  resize: none; /* Disable resizing within the textarea */
+
+}
+
+.navi{
+  margin:0.5em 0 0 0;
+}
+
+hr{
+  margin-top: 1em;
+}
+.nav-op{
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  text-align: justify;
+  margin: 0 0 0.3em 1em;
+  cursor: pointer;
+
+}
+
+.nav-op:hover {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.7px;
+  text-align: justify;
+  margin: 0 0 0 1em;
+  text-decoration: underline;
+  text-decoration-thickness: 0.25em;
+  text-underline-offset: 0.5em;
+  text-decoration-color: rgba(134, 134, 134, 0.5);
+  text-decoration-skip-ink: none;
+  cursor: pointer;
+  transition: underline 1s ease-in-out;
+}
+
+.no-left-margin {
+  margin-left: 0;
+  padding-left: 1;
+}
+.no-left-margin:hover {
+  margin-left: 0;
+  padding-left: 1;
+}
+
+.active {
+  text-decoration: underline;
+  text-decoration-thickness: 0.3em;
+  text-underline-offset: 0.5em;
+  text-decoration-color: rgba(134, 134, 134, 0.5);
+}
+
+#questionList{
+  margin-bottom: 0.2em;
+  background-color:transparent;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+}
+.ques-item, .sub-item{
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 0.9em;
+}
+
+.ratings{
+  padding: 0.5em 0 1em 0.5em;
+  font-weight: 400;
+}
+.difficulty{
+  color: #00AF9B;
+}
+
+.rateLike{
+  margin-left: 2em;
+  cursor: pointer;
+}
+.rate{
+  margin-left:1em;
+  cursor: pointer;
+}
+.star{
+  margin-left: 2em;
+  cursor: pointer;
+}
+.share{
+  margin-left:0.7em;
+  cursor: pointer;
+}
+.Statement, .quesHead{
+  font-size: 1em;
+}
+.adjust{
+  margin-left: 2em;
+}
+.part{
+  margin-top: 1em;
+}
+.head{
+  font-weight:500;
+}
+.description{
+  margin-top:0;
+  padding-top: 0;
+  font-size: 0.9em;
+  font-weight:400;
+}
+.footer{
+  letter-spacing: 1px;
+  padding-top:2em;
+  font-size:1em;
+  font-weight:350;
+}
+.code-section .dropdown-toggle.btn-secondary{
+    background-color: transparent;
+    border: none;
+    color: #000;
+    letter-spacing: 0.5px;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+.dropdown-item{
+  letter-spacing: 0.5px;
+  font-size: 0.9em;
+  font-weight: 300;
+}
+
+.topGrp {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.code-section .dropdown, .naviButts {
+  display: inline;
+}
+
+.naviButts{
+  margin-right:2em;
+}
+.but{
+  padding:0 0.7em;
+}
+
+.code-section hr{
+  margin:0.2em 0 0.8em 0;
+}
+
+.console-section{
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+border: 1px solid #ccc;
+background-color: #fff;
+border-radius: 5px;
+min-width: 200px;
+height: 5vh;
+}
+
+.btn-transparent {
+  margin-top: 0.2em;;
+  background-color: transparent;
+  border: solid 1px #ccc;
+  padding:0.2em 1.5em;
+  color: #000; /* Set your desired text color */
+}
+
+.btn-transparent:hover {
+  color: #333;
+  border: solid 1px #333;
+  padding:0.2em 1.5em;
+}
+.offcanvas-header{
+  padding-bottom: 2px;
+}
+
+.btn-custom {
+  background-color: #F7931A;
+  padding:0.2em 1.8em 0.2em 1.5em;
+  margin-top: 0.2em;
+  border-color: #F7931A;
+  letter-spacing: 0.6px;
+  color: #fff; /* Text color */
+}
+.btn-custom:hover {
+  background-color: #E88200; /* Change color on hover */
+  border-color: #E88200;
+  margin-top: 0.2em;
+  padding:0.2em 1.8em 0.2em 1.5em;
+  color:#F0F0F0;
+  letter-spacing: 0.8px;
+}
+
+.btn-submit {
+  background-color: #2DB55D;
+  padding:0.2em 2em;
+  margin-top: 0.2em;
+  letter-spacing: 0.6px;
+  margin-left: 0.7em;
+  color: #fff; /* Text color */
+}
+.btn-submit:hover {
+  background-color: #2b8f4e; /* Change color on hover */
+  padding:0.2em 2em;
+  margin-top: 0.2em;
+  color:#F0F0F0;
+  letter-spacing: 0.8px;
+}
+.console-editor {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: 14px;
+  font-weight: 300;
+  line-height: 1.8;
+  font-style: normal;
+  width: calc(100% - 22px);
+  height: calc(100% - 22px);
+  resize: none;
+  margin-left: 1em;
+}
+.grpButtons{
+  margin-right: 2em;
+}
+.testcase{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: 14px;
+  font-weight: 300;
+  line-height: 1.8;
+  font-style: normal;
+  color: #2b8f4e;
+}
+
