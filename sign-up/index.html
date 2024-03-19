@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="style.css">
+  <title>Sign-up</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md py-0 bg-custom">
+    <a class="navbar-brand py-0" href="#"><img src="img/LogodcbBG.png" alt="Logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" style="background-color: white;"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Learn</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Warm-up</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Battle Grounds</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+            </li>
+        </ul>
+        <div class="grpButton">
+            <button class="catalog-button d-none d-xxl-inline"><img src="img/metamask.svg">&nbsp;&nbsp;Wallet</button>
+        </div>
+    </div>
+</nav>
+
+<div class="sign-up container d-flex justify-content-center align-items-center">
+  <div class="d-flex flex-column align-items-center">
+  <div><img src="img/LogodcbBG.svg" alt="Logo" class="d-flex justify-content-center mt-4 pt-2 mb-1"></div>
+  <div>
+  <form action="/signup" method="post">
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    </div>
+    <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+    </div>
+    <div>
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" placeholder="Enter your password" required>
+    </div>
+    <input type="submit" value="Register">
+</form>
+<hr>
+<div class="or">or continue with</div>
+<div class="accounts align-items-center">
+  <span><a href="#"><img src="img/Facebook.svg" alt="facebook"></a></span>
+  <span><a href="#"><img src="img/google.svg" alt="google"></a></span>
+  <span><a href="#"><img src="img/metamask.svg" alt="metamask"></a></span>
+  <span><a href="#"><img src="img/Github.svg" alt="github"></a></span>
+</div>
+<div class="already">
+  Already have an Account ?
+  <span><a href="#" class="sign">Login</a></span>
+</div>
+</div>
+</div>
+</div>
+
+<footer>
+  <div class="container row footer-up">
+    <div class="col-1"></div>
+    <div class="leftfoot col-md-5">
+      <img src="img/LogodcbBG.svg" alt="logo">
+      <div class="description lead">Explore blockchain concepts with expertised challenges. Engage in a vibrant community, participate in thrilling contests, and ace industry-leading problems.</div>
+    </div>
+    <div class="rightfoot d-none d-xl-flex flex-row col-md-6">
+      <div class="footnav">
+        <ul>
+          <li class="navhead">Product</li>
+          <li><a href="#">Overview</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Solutions</a></li>
+          <li><a href="#">Releases</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+      </div>
+      <div class="footnav">
+        <ul>
+          <li class="navhead">Company</li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Email</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footnav">
+        <ul>
+          <li class="navhead">Resources</li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">HelpCentre</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Events</a></li>
+        </ul>
+      </div>
+      <div class="footnav">
+        <ul>
+          <li class="navhead">Social</li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">Youtube</a></li>
+        </ul>
+      </div>
+      <div class="footnav">
+        <ul>
+          <li class="navhead">Legal</li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Cookies</a></li>
+          <li><a href="#">Licenses</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+  </div>
+</footer>
+<lowFooter>
+  <div class="container row">
+    <div class="col-1"></div>
+    <div class="dcbfooter col-md-5">
+      <span class="copyright">Copyright © 2024 DcodeBlock. </span>
+      <span class="reserved">All rights reserved. </span>
+    </div>
+    <div class="col-3 d-none d-xxl-inline"></div>
+    <div class="col-lg-3 footerSocials">
+      <span class="socialfooter"><a href="#"><img src="img/twiiter.svg"></a></span>
+      <span class="socialfooter"><a href="#"><img src="img/linkedin.svg"></a></span>
+      <span class="socialfooter"><a href="#"><img src="img/fb.svg"></a></span>
+      <span class="socialfooter"><a href="#"><img src="img/githubfoot.svg"></a></span>
+      <span class="socialfooter"><a href="#"><img src="img/youtube.svg"></a></span>
+    </div>
+</lowFooter>
+</body>
+</html>
+
