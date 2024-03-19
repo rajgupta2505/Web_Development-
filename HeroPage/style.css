@@ -1,0 +1,551 @@
+.bg-custom {
+  background-color: #09091D;
+}
+
+.navbar {
+  height: 70px;
+}
+.navbar-brand img {
+  margin-left:2em;
+  width: 300px;
+  height: 70px;
+}
+
+.navbar-nav{
+  margin-left:auto;
+  margin-right:auto;
+}
+.navbar-nav .nav-link {
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 0.95rem;
+  margin-left:25px;
+}
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
+  transition: text-decoration 5s;
+}
+
+
+.heroSection {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .bg-video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .bg-video {
+    width: auto;
+    height: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .heroSection {
+    height: 822px;
+  }
+}
+
+
+.catalog-button {
+  background-color: transparent;
+  color: #FFFFFF;
+  letter-spacing:1px ;
+  font-weight: 500;
+  padding: 0.5em 3em;
+  border: 0.2px solid #FFFFFF;
+  border-radius: 5px;
+  margin-right: 0.625em;
+}
+.catalog-button:hover{
+  background-color: #1B72A8;
+  letter-spacing: 1px;
+  font-weight: 500;
+  padding: 0.5em 3em;
+  border: 0.2px solid #FFFFFF;
+  border-radius: 5px;
+  margin-right: 0.625em;
+}
+.grpButton{
+  margin-right:3em;
+}
+
+.signin-button {
+  background-color: #0BCAFC;
+  border: 0.2px solid #FFFFFF;
+  font-size: 1em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  color: #09091D;
+  padding: 0.5em 3em;
+}
+.signin-button:hover {
+  background-color: #587DBD;
+  border: 0.2px solid #FFFFFF;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  padding: 0.5em 3em;
+}
+@media (max-width: 767.98px) {
+  .navbar-nav {
+      display: none;
+  }
+}
+
+
+.ThinkBlock{
+  padding-top: 15em;
+  margin-left: 3em;
+
+}
+.HeadDescription{
+  font-size:1em;
+  height:1.5em;
+  letter-spacing:1px;
+  margin-top: 2.2em;
+  margin-bottom: 4.9em;
+  margin-left: 2.5em;
+  font-family: "Poppins", sans-serif;
+  color:#FFFFFF;
+}
+
+.ButTop{
+  font-size:1.4em;
+  margin-left:1.9em;
+  transition: background 0.2s;
+  letter-spacing:1px;
+  font-family: "Poppins", sans-serif;
+  color:#FFFFFF
+
+}
+.headgrpBut{
+  margin-top:0.5em;
+  margin-left: 2.7em;
+}
+.HeroSignup{
+  font-size:1.1em;
+  padding:1em 4em;
+  margin-right: 0.5em;
+  letter-spacing:1px;
+  background-color: #9747FF;
+  color: #FFFFFF;
+  border-width: 1px;
+  border-color: #FFFFFF;
+  border-radius: 5px;
+}
+.HeroSignup:hover{
+  font-size:1.1em;
+  padding:1em 4em;
+  margin-right: 0.5em;
+  letter-spacing:1px;
+  transition: background 0.2s;
+  background-color: #50178C;
+  color: #FFFFFF;
+  border-width: 1px;
+  border-color: #FFFFFF;
+  border-radius: 5px;
+}
+
+.GetStarted{
+  font-size:1.1em;
+  padding:1em 4em;
+  letter-spacing:1px;
+  background-color: #7c7c7c47;
+  color: #FFFFFF;
+  border-width: 1px;
+  border-color: #FFFFFF;
+  border-radius: 5px;
+}
+
+.GetStarted:hover{
+  font-size:1.1em;
+  padding:1em 4em;
+  letter-spacing:1px;
+  transition: background 0.2s;
+  background-color: #9747FF;
+  color: #FFFFFF;
+  border-width: 1px;
+  border-color: #FFFFFF;
+  border-radius: 5px;
+}
+
+#sec1-1{
+  margin-top:5em;
+  margin-left:5em;
+}
+h2{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 2.6rem;
+}
+#sec1 p{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+}
+.practicalDesc{
+  margin-top:7em;
+  padding-left: 4em;
+}
+
+.comButton{
+  font-size:1.1em;
+  margin-top: 2em;
+  padding:1em 4em;
+  letter-spacing:1px;
+  transition: background 0.2s;
+  background-color: #9747FF;
+  color: #FFFFFF;
+  border-width: 1px;
+  border-color: #FFFFFF;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comButton{
+  font-size:1.1em;
+  padding:1em 4em;
+  letter-spacing:1px;
+  transition: background 0.4s;
+  background-color: #9747FF;
+  color: #FFFFFF;
+  border-width: 1px;
+  border-color: #FFFFFF;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.comButton:hover{
+  font-size:1.1em;
+  padding:1em 4em;
+  letter-spacing:1px;
+  transition: background 0.4s;
+  background-color: #50178C;
+  color: #FFFFFF;
+  border-width: 1px;
+  border-color: #FFFFFF;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#sec1 {
+  background-image: url('imgs/bg-1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px;
+
+}
+
+#cardSection {
+  padding: 50px 0;
+  background-color: #2D3447;
+}
+
+#cardSection h2 {
+  margin: 0.5em 0 2em 1em;
+  letter-spacing: 1px;
+  color: #FFFF;
+  font-weight: bolder;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+#cardSection h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #FFFFFF;
+  transform-origin: center;
+  transform: scaleX(0.8);
+}
+
+.card {
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 20px;
+  height: 100%;
+}
+
+.cardImg {
+  height: 4em;
+  width: 4em;
+}
+
+.cardName {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 1.5em;
+  padding: 15px 0;
+}
+
+.cardDesc {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: light;
+  font-size: 0.9em;
+  letter-spacing: 0.5px;
+  padding-bottom: 25px;
+}
+
+#cardSection ul {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  padding-bottom: 20px;
+  font-size: 0.75em;
+  padding-left:18px ;
+}
+
+.cardButton {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  background-color: #3F3D56;
+  color: #FFFFFF;
+  padding: 0.7em 1em;
+  border-radius: 10px;
+}
+
+.cardButton:hover {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  background-color: #716E96;
+  color: #FFFFFF;
+  padding: 0.7em 1em;
+  border-radius: 10px;
+  transition: all 0.3s;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.1),
+    0 2px 0 rgba(255, 255, 255, 0.1),
+    0 2px 3px rgba(0, 0, 0, 0.3),
+    0 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.secImg{
+  height:28em;
+  width:28em;
+}
+
+.editor{
+  margin-left: 10em;
+}
+#sec2-1{
+  margin-left:6em;
+}
+#sec2-2{
+  margin-top:2em;
+}
+#sec2 {
+  background-image: url('imgs/bg-2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px;
+}
+
+#motoSection h2 {
+  margin: 0.5em 0 1.3em 1em;
+  letter-spacing: 1px;
+  color: #FFFF;
+  font-weight: bolder;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+#motoSection h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #FFFFFF;
+  transform-origin: center;
+  transform: scaleX(0.8);
+}
+
+#motoSection {
+  padding: 50px;
+  background-color: #242554;
+}
+
+#motoSection p{
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  margin-top: 0.5em 0;
+  letter-spacing: 1px;
+
+}
+.phrase{
+  width: 18em;
+  height: 18em;
+}
+
+.processflow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrow {
+  align-self: center;
+}
+
+.phrase{
+  margin-left:2em;
+}
+
+.quote{
+    font-family: "Overlock SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    font-size:2em;
+    align-items: center;
+  }
+  .quote{
+    padding-top:2em;
+  }
+
+  .top-left-image {
+    position: relative;
+    top: -0.9em;
+    left: 1px;
+    height: 0.6em;
+    width: 0.6em;
+  }
+
+  .quote-text {
+    padding-left: 0.5em;
+  }
+
+#discord{
+    background-image: url('imgs/Newsletter.svg');
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+.comText{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: #fff;
+  letter-spacing:1.5px;
+  padding: 120px 0 5px 7em;
+}
+
+#discord .comButton{
+  margin:25px 0 100px 9.7em;
+}
+
+#footer{
+  background-image: url('imgs/bgbottom.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 410px;
+}
+
+.info{
+  padding-top: 6em;;
+}
+
+.footerLogo{
+  height: 4.5em;
+  width: 20em;
+}
+
+#footer p{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  margin-left: 1.4em;
+  color: #fff;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  padding: 0.7em 0 2em 0;
+  max-width: 290px;
+  line-height: 2;
+}
+
+.logos{
+  margin-left: 1em;
+  width: 2.75em;
+  height: 2.75em;
+}
+
+.TnC {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  justify-content: center;
+  color: #53D3E0;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  padding-top: 0.7em;
+}
+
+a {
+  color: inherit; /* Use the color inherited from the parent */
+  text-decoration: none; /* Remove underline */
+}
+
+.grpclicks{
+  margin: 2em 0 0 0;
+}
+
+.more-info{
+  width: 190px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+.click-ups{
+  padding-top: 1em;
+  color: #FFFFFF;
+}
+.click-ups:hover{
+  padding-top: 1em;
+  color: #53D3E0;
+}
+
+.click-upsHead{
+  color: #53D3E0;
+  font-weight: 600;
+}
